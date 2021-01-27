@@ -24,8 +24,7 @@ The code has been organized with controllers to receive the requests and some se
 
 The controllers have been documented with Swagger and we can do the request from the user interface (<http://localhost:8080/swagger-ui.html#>).
 
-
-
+I decided to use a MongoDB database to improve the query times. For this, I used MongoDB Atlas a fully managed Cloud Database service.
 
 To handle the parsing errors I created some custom exceptions like XmlDocumentException and UnzipException that are handled by RestResponseStatusExceptionResolver. This code will support the XML format changes because the XmlUtils class selects the name of the attributes and nodes of the XML document, so if the names are the same this code will continue working.
 
