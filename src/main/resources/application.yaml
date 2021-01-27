@@ -1,0 +1,19 @@
+########################
+#   Server context
+########################
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://basf:basf@cluster0.vxsi4.mongodb.net/basf?retryWrites=true&w=majority
+
+
+  ##################
+  #   Max file size
+  ##################
+  servlet:
+    multipart:
+      maxFileSize: 300MB
+      maxRequestSize: 300MB

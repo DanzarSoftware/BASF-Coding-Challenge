@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alvarozarza.basf.controller.ChemicalControllerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-27T11:02:52" hostname="MacBook-Pro-de-Mac.local" time="1.105">
+  <properties/>
+  <testcase name="removeDatabase" classname="com.alvarozarza.basf.controller.ChemicalControllerTests" time="0.991"/>
+  <testcase name="extractChemicals" classname="com.alvarozarza.basf.controller.ChemicalControllerTests" time="0.113"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
