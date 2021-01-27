@@ -4,7 +4,7 @@ services:
   basf-app:
     build:
       context: .
-      dockerfile: ./build/Dockerfile
+      dockerfile: ./Dockerfile
     ports:
       - 8080:8080
     networks:

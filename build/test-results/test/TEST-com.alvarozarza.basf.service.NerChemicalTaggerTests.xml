@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.alvarozarza.basf.service.NerChemicalTaggerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-27T11:02:53" hostname="MacBook-Pro-de-Mac.local" time="19.745">
-  <properties/>
-  <testcase name="extractTagsFromText" classname="com.alvarozarza.basf.service.NerChemicalTaggerTests" time="19.745"/>
-  <system-out><![CDATA[2021-01-27 12:02:57.867  INFO 19344 --- [    Test worker] u.ac.cam.ch.wwmm.oscar.obo.OntologyTerm  : Loading ontology terms: uk/ac/cam/ch/wwmm/oscar/obo/terms/ontology.txt
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

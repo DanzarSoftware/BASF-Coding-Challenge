@@ -41,6 +41,8 @@ This lib finds all the chemical components, the problem is that many of the resu
 
 I created in the root of the project a file with 150 patents(Test150.zip) to test the application. The time of process 150 files is 10 minutes. I tested with 7000 and 10000 files, the application is running for hours and the program ends successfully. I know that this time is unacceptable for a REST request, so I think that it would be better to upload the file with ftp and use batch process to process this data or a Spark Job.
 
-Unitary tests have been done with Mockito, I covered all the methods. The tests are executed with `$ docker-compose up`  
+Unitary tests have been done with Mockito, I covered all the methods.
+
+The tests are executed with `$ docker-compose up`  
 
 The application has been dockerized, for this, I have created a Dockerfile that compiles the application with a Gradle wrapper and runs the application. This process is orchestrated with docker-compose in case we decide to use a database or add other components to the architecture in the future.
