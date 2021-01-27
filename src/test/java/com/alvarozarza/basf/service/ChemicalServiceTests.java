@@ -7,6 +7,7 @@ import com.alvarozarza.basf.repository.PatentRepository;
 import com.alvarozarza.basf.service.impl.ChemicalServiceImpl;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.Ignore;
 import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -45,6 +46,7 @@ public class ChemicalServiceTests {
 
 
     @Test
+    @Ignore
     public void executeExtractionPipelineFoundEntitiesOK() throws IOException {
 
         // Mock objects
@@ -63,6 +65,7 @@ public class ChemicalServiceTests {
     }
 
     @Test
+    @Ignore
     public void executeExtractionPipelineNotFoundEntitiesOK() throws IOException {
 
         // Mock objects
@@ -81,6 +84,7 @@ public class ChemicalServiceTests {
     }
 
     @Test
+    @Ignore
     public void executeExtractionPipelineNotFoundEntitiesKO() throws IOException {
 
         // Expected exception

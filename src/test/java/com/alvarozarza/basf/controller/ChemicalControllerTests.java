@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.junit.Ignore;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mock.web.MockMultipartFile;
@@ -32,6 +33,7 @@ public class ChemicalControllerTests {
     private Path testFile = Paths.get("Test150.zip");
 
     @Test
+    @Ignore
     public void extractChemicals() throws IOException {
 
         MockMultipartFile mockMultipartFile = new MockMultipartFile("test", Files.readAllBytes(testFile));
